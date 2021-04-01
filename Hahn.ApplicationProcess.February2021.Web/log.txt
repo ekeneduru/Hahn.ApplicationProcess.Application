@@ -1,0 +1,10 @@
+04/01/2021 10:05:40 Application starting up
+04/01/2021 10:07:02 Asset with 2 have beeen created Successufully.
+04/01/2021 10:07:33 Asset with 3 have beeen created Successufully.
+04/01/2021 10:11:35 Application starting up
+04/01/2021 10:14:59 Asset with Id 3 have beeen update Successufully.
+04/01/2021 10:16:05 Application starting up
+04/01/2021 13:04:37 Application starting up
+04/01/2021 13:05:42 An unhandled exception has occurred while executing the request.
+04/01/2021 13:06:15 An unhandled exception has occurred while executing the request.
+04/01/2021 13:09:29 Application starting up

@@ -12,7 +12,7 @@ namespace Hahn.ApplicationProcess.February2021.Domain.Validators
     {
         public AssetValidator()
         {
-            RuleFor(x => x.AssetName).MaximumLength(5);
+            RuleFor(x => x.AssetName).MinimumLength(5);
             RuleFor(x => x.Department).IsInEnum();
             RuleFor(x => x.EMailAdressOfDepartment).EmailAddress();
             RuleFor(x => x.Broken).NotNull();

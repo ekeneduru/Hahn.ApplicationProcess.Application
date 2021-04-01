@@ -9,6 +9,12 @@ using Hahn.ApplicationProcess.February2021.Domain.DBContext;
 using FluentValidation;
 using Hahn.ApplicationProcess.February2021.Domain.Models;
 using Hahn.ApplicationProcess.February2021.Domain.Validators;
+using Microsoft.OpenApi.Models;
+using System;
+using System.Collections.Generic;
+using Hahn.ApplicationProcess.February2021.Domain.Interfaces;
+using Hahn.ApplicationProcess.February2021.Data.Services;
+using Hahn.ApplicationProcess.February2021.Data;
 
 namespace Hahn.ApplicationProcess.February2021.Web
 {
@@ -37,6 +43,60 @@ namespace Hahn.ApplicationProcess.February2021.Web
                 
             }).AddFluentValidation();
             services.AddTransient<IValidator<Asset>, AssetValidator>();
+            services.AddTransient<IAssetService, AssetService>();
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
+            services.AddTransient<IExternalService, ExternalService>();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "Hahn API",
+                    Description = "This Hahn API",
+                    TermsOfService = new Uri("https://Hahn.com/terms"),
+
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Ekene Duru",
+                        Email = "ekene@hahn.com",
+                        Url = new Uri("https://hahn.com/"),
+                    },
+                    License = new OpenApiLicense
+                    {
+                        Name = "Use under Hahn",
+                        Url = new Uri("https://hahn.com/license"),
+                    }
+                });
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = "JWT Authorization header using the Bearer scheme. \r\n\r\n Enter 'Bearer' [space] and then your token in the text input below.\r\n\r\nExample: \"Bearer 12345abcdef\"",
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey,
+                    Scheme = "Bearer"
+                });
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement()
+                {
+                   {
+                        new OpenApiSecurityScheme
+                        {
+                            Reference = new OpenApiReference
+                            {
+                                Type = ReferenceType.SecurityScheme,
+                                Id = "Bearer"
+                            },
+                            Scheme = "oauth2",
+                            Name = "Bearer",
+                            In = ParameterLocation.Header,
+
+                        },
+                       new List<string>()
+                    }
+                 });
+            });
+
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,16 +113,32 @@ namespace Hahn.ApplicationProcess.February2021.Web
                 app.UseHsts();
             }
 
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Hahn API");
+                //c.RoutePrefix = string.Empty;
+
+            });
+            app.UseCors(o => o.AllowAnyOrigin()
+               .AllowAnyMethod()
+               .AllowAnyHeader());
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+            
             app.UseRouting();
 
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                // endpoints.MapRazorPages();
+                endpoints.MapControllerRoute(
+                     name: "default",
+                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
     }
