@@ -51,13 +51,8 @@ namespace Hahn.ApplicationProcess.February2021.Data.Services
                 }
                 else
                 {
-                    string stringResp;
-                    using (Stream responseStream = await response.Content.ReadAsStreamAsync())
-                    {
-                        stringResp = new StreamReader(responseStream).ReadToEnd();
-                    }
-                    T resp = JsonConvert.DeserializeObject<T>(stringResp);
-                    return resp;
+                    
+                    return default(T);
                 }
 
             }

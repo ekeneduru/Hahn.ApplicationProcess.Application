@@ -12,10 +12,11 @@ namespace Hahn.ApplicationProcess.February2021.Domain.Validators
     {
         public AssetValidator()
         {
-            RuleFor(x => x.AssetName).MinimumLength(5);
+            RuleFor(x => x.AssetName).NotEmpty().MinimumLength(5);
             RuleFor(x => x.Department).IsInEnum();
-            RuleFor(x => x.EMailAdressOfDepartment).EmailAddress();
+            RuleFor(x => x.EMailAdressOfDepartment).NotEmpty().EmailAddress();
             RuleFor(x => x.Broken).NotNull();
+            RuleFor(x => x.CountryOfDepartment).NotEmpty();
             RuleFor(x => x.PurchaseDate).GreaterThanOrEqualTo(DateTime.UtcNow.AddYears(-1));
         }
     

@@ -11,10 +11,11 @@ namespace Hahn.ApplicationProcess.February2021.Data.ViewModels
     {
         public int Id { get; set; }
         public string AssetName { get; set; }
-        public Department Department { get; set; }
+        public int Department { get; set; }
         public string CountryOfDepartment { get; set; }
         public string EMailAdressOfDepartment { get; set; }
-        public DateTime PurchaseDate { get; set; }
+        public string PurchaseDate { get; set; }
         public bool Broken { get; set; }
+       
     }
 }

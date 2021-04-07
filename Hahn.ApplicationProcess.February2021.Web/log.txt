@@ -8,3 +8,94 @@
 04/01/2021 13:05:42 An unhandled exception has occurred while executing the request.
 04/01/2021 13:06:15 An unhandled exception has occurred while executing the request.
 04/01/2021 13:09:29 Application starting up
+04/01/2021 13:30:12 Application starting up
+04/03/2021 13:52:15 Application starting up
+04/03/2021 13:54:17 Application starting up
+04/03/2021 14:05:01 Application starting up
+04/03/2021 14:52:18 Application starting up
+04/03/2021 15:30:03 Application startup exception
+Method 'Apply' in type 'Swashbuckle.AspNetCore.Examples.AddHeaderOperationFilter' from assembly 'Swashbuckle.AspNetCore.Examples, Version=2.5.0.0, Culture=neutral, PublicKeyToken=aa1e9c5053bfbe95' does not have an implementation.
+Method 'Apply' in type 'Swashbuckle.AspNetCore.Examples.AuthorizationInputOperationFilter' from assembly 'Swashbuckle.AspNetCore.Examples, Version=2.5.0.0, Culture=neutral, PublicKeyToken=aa1e9c5053bfbe95' does not have an implementation.
+Method 'Apply' in type 'Swashbuckle.AspNetCore.Examples.DescriptionOperationFilter' from assembly 'Swashbuckle.AspNetCore.Examples, Version=2.5.0.0, Culture=neutral, PublicKeyToken=aa1e9c5053bfbe95' does not have an implementation.
+Method 'Apply' in type 'Swashbuckle.AspNetCore.Examples.ExamplesOperationFilter' from assembly 'Swashbuckle.AspNetCore.Examples, Version=2.5.0.0, Culture=neutral, PublicKeyToken=aa1e9c5053bfbe95' does not have an implementation.
+Method 'Apply' in type 'Swashbuckle.AspNetCore.Examples.AddFileParamTypesOperationFilter' from assembly 'Swashbuckle.AspNetCore.Examples, Version=2.5.0.0, Culture=neutral, PublicKeyToken=aa1e9c5053bfbe95' does not have an implementation.
+04/03/2021 15:30:03 The application failed to start
+04/06/2021 12:45:02 Application starting up
+04/06/2021 12:46:07 Application starting up
+04/06/2021 12:47:30 Application starting up
+04/06/2021 12:48:21 Application starting up
+04/06/2021 12:49:49 Application starting up
+04/06/2021 12:53:34 Application starting up
+04/06/2021 15:49:16 Application starting up
+04/06/2021 15:49:21 An unhandled exception has occurred while executing the request.
+04/06/2021 16:09:17 Application starting up
+04/06/2021 16:12:07 Application starting up
+04/06/2021 16:14:17 Application starting up
+04/06/2021 16:15:29 Application starting up
+04/06/2021 16:17:07 Application starting up
+04/06/2021 16:20:31 Application starting up
+04/06/2021 16:21:36 Application starting up
+04/06/2021 16:22:17 Application starting up
+04/06/2021 16:24:25 Application starting up
+04/06/2021 16:28:48 Application starting up
+04/06/2021 16:33:44 Application starting up
+04/06/2021 16:34:23 Application starting up
+04/06/2021 16:35:44 Application starting up
+04/06/2021 16:36:59 Application starting up
+04/06/2021 16:37:46 Application starting up
+04/06/2021 19:47:46 Application starting up
+04/06/2021 19:49:02 Application starting up
+04/07/2021 07:29:20 Application starting up
+04/07/2021 07:30:58 Application starting up
+04/07/2021 07:35:32 Application starting up
+04/07/2021 07:47:04 Error occure while creating asset.
+04/07/2021 07:48:48 Error occure while creating asset.
+04/07/2021 07:49:29 Application starting up
+04/07/2021 07:49:43 Error occure while creating asset.
+04/07/2021 07:52:16 Error occure while creating asset.
+04/07/2021 07:54:22 Application starting up
+04/07/2021 07:56:12 Application starting up
+04/07/2021 07:59:27 Application starting up
+04/07/2021 08:01:29 Asset with Id 1002 have beeen created Successufully.
+04/07/2021 08:04:35 Application starting up
+04/07/2021 08:06:05 Asset with Id 1003 have beeen created Successufully.
+04/07/2021 08:38:51 Asset with Id 1004 have beeen created Successufully.
+04/07/2021 08:39:08 Asset with Id 1005 have beeen created Successufully.
+04/07/2021 08:41:27 Asset with Id 1006 have beeen created Successufully.
+04/07/2021 08:42:39 Application starting up
+04/07/2021 08:43:02 Asset with Id 1007 have beeen created Successufully.
+04/07/2021 08:43:53 Application starting up
+04/07/2021 08:44:11 Asset with Id 1008 have beeen created Successufully.
+04/07/2021 08:46:56 Application starting up
+04/07/2021 08:47:50 Application starting up
+04/07/2021 08:59:32 Asset with Id 1009 have beeen created Successufully.
+04/07/2021 09:28:48 Error occure while creating asset.
+04/07/2021 09:29:04 Error occure while creating asset.
+04/07/2021 09:32:18 Application starting up
+04/07/2021 09:32:29 Error occure while creating asset.
+04/07/2021 09:32:35 Error occure while creating asset.
+04/07/2021 09:35:49 Error occure while creating asset.
+04/07/2021 09:43:02 Application starting up
+04/07/2021 16:29:34 Asset with Id 1010 have beeen created Successufully.
+04/07/2021 18:33:10 Application starting up
+04/07/2021 19:05:09 Error occure while creating asset.
+04/07/2021 19:05:47 Asset with Id 1011 have beeen created Successufully.
+04/07/2021 20:24:35 Application starting up
+04/07/2021 20:25:01 Asset with Id 1012 have beeen created Successufully.
+04/07/2021 20:29:54 Application starting up
+04/07/2021 20:30:00 User profile is available. Using '"C:\Users\eduru\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+04/07/2021 20:30:03 Now listening on: "https://localhost:5001"
+04/07/2021 20:30:03 Now listening on: "http://localhost:5000"
+04/07/2021 20:30:03 Application started. Press Ctrl+C to shut down.
+04/07/2021 20:30:03 Hosting environment: "Development"
+04/07/2021 20:30:03 Content root path: "C:\Users\eduru\Documents\Visual Studio 2019\Projects\Hahn.ApplicationProcess.Application\Hahn.ApplicationProcess.February2021.Web"
+04/07/2021 20:30:06 Request starting HTTP/2 GET https://localhost:5001/ - -
+04/07/2021 20:30:07 Executing endpoint '"Hahn.ApplicationProcess.February2021.Web.Controllers.HomeController.Index (Hahn.ApplicationProcess.February2021.Web)"'
+04/07/2021 20:30:07 Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Hahn.ApplicationProcess.February2021.Web.Controllers.HomeController" ("Hahn.ApplicationProcess.February2021.Web").
+04/07/2021 20:30:07 Executing action method "Hahn.ApplicationProcess.February2021.Web.Controllers.HomeController.Index (Hahn.ApplicationProcess.February2021.Web)" - Validation state: Valid
+04/07/2021 20:30:07 Executed action method "Hahn.ApplicationProcess.February2021.Web.Controllers.HomeController.Index (Hahn.ApplicationProcess.February2021.Web)", returned result "Microsoft.AspNetCore.Mvc.ViewResult" in 2.707ms.
+04/07/2021 20:30:07 Executing ViewResult, running view "Index".
+04/07/2021 20:30:08 Executed ViewResult - view "Index" executed in 1060.075ms.
+04/07/2021 20:30:08 Executed action "Hahn.ApplicationProcess.February2021.Web.Controllers.HomeController.Index (Hahn.ApplicationProcess.February2021.Web)" in 1494.0712ms
+04/07/2021 20:30:08 Executed endpoint '"Hahn.ApplicationProcess.February2021.Web.Controllers.HomeController.Index (Hahn.ApplicationProcess.February2021.Web)"'
+04/07/2021 20:30:08 Request finished HTTP/2 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 2127.6207ms

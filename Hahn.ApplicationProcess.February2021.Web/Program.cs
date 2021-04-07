@@ -31,7 +31,6 @@ namespace Hahn.ApplicationProcess.February2021.Web
             catch (Exception ex)
             {
                 Log.Error(ex, "The application failed to start");
-                throw;
             }
             finally
             {
