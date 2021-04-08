@@ -104,6 +104,8 @@ namespace Hahn.ApplicationProcess.February2021.Web
                .AllowAnyMethod()
                .AllowAnyHeader());
 
+            InitializeDb(app);
+
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
@@ -119,6 +121,22 @@ namespace Hahn.ApplicationProcess.February2021.Web
                      name: "default",
                      pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+        }
+        private async void InitializeDb(IApplicationBuilder app)
+        {
+            try
+            {
+                using (var scope = app.ApplicationServices.GetService<IServiceScopeFactory>().CreateScope())
+                {
+                    var db = scope.ServiceProvider.GetRequiredService<ApplicationContext>();
+
+                    await db.Database.MigrateAsync();
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
         }
     }
 }
