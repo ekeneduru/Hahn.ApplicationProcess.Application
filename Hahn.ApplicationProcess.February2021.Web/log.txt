@@ -535,3 +535,530 @@ WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
 04/08/2021 03:45:49 Executed action "Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController.Post (Hahn.ApplicationProcess.February2021.Web)" in 22382.7474ms
 04/08/2021 03:45:49 Executed endpoint '"Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController.Post (Hahn.ApplicationProcess.February2021.Web)"'
 04/08/2021 03:45:49 Request finished HTTP/2 POST https://localhost:52710/api/organization application/json 146 - 201 - application/json;+charset=utf-8 22462.4759ms
+04/08/2021 04:00:48 Application starting up
+04/08/2021 04:00:50 Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+04/08/2021 04:00:50 User profile is available. Using '"/root/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+04/08/2021 04:00:51 Creating key {4458f1d3-da78-4bd9-a8f2-6ea96a8ed5ce} with creation date 2021-04-08 04:00:51Z, activation date 2021-04-08 04:00:51Z, and expiration date 2021-07-07 04:00:51Z.
+04/08/2021 04:00:51 No XML encryptor configured. Key {4458f1d3-da78-4bd9-a8f2-6ea96a8ed5ce} may be persisted to storage in unencrypted form.
+04/08/2021 04:00:51 Writing data to file '"/root/.aspnet/DataProtection-Keys/key-4458f1d3-da78-4bd9-a8f2-6ea96a8ed5ce.xml"'.
+04/08/2021 04:00:53 Entity Framework Core "5.0.4" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+04/08/2021 04:00:55 Now listening on: "https://[::]:443"
+04/08/2021 04:00:55 Now listening on: "http://[::]:80"
+04/08/2021 04:00:55 Application started. Press Ctrl+C to shut down.
+04/08/2021 04:00:55 Hosting environment: "Development"
+04/08/2021 04:00:55 Content root path: "/app"
+04/08/2021 04:00:57 Request starting HTTP/2 GET https://localhost:53610/ - -
+04/08/2021 04:00:58 Executing endpoint '"Hahn.ApplicationProcess.February2021.Web.Controllers.HomeController.Index (Hahn.ApplicationProcess.February2021.Web)"'
+04/08/2021 04:00:58 Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Hahn.ApplicationProcess.February2021.Web.Controllers.HomeController" ("Hahn.ApplicationProcess.February2021.Web").
+04/08/2021 04:00:58 Executing ViewResult, running view "Index".
+04/08/2021 04:00:58 Executed ViewResult - view "Index" executed in 638.3538ms.
+04/08/2021 04:00:58 Executed action "Hahn.ApplicationProcess.February2021.Web.Controllers.HomeController.Index (Hahn.ApplicationProcess.February2021.Web)" in 678.0897ms
+04/08/2021 04:00:58 Executed endpoint '"Hahn.ApplicationProcess.February2021.Web.Controllers.HomeController.Index (Hahn.ApplicationProcess.February2021.Web)"'
+04/08/2021 04:00:59 Request starting HTTP/2 GET https://localhost:53610/lib/bootstrap/dist/css/bootstrap.min.css - -
+04/08/2021 04:00:59 Request starting HTTP/2 GET https://localhost:53610/css/site.css - -
+04/08/2021 04:00:59 Request starting HTTP/2 GET https://localhost:53610/lib/jquery/dist/jquery.min.js - -
+04/08/2021 04:00:59 Request starting HTTP/2 GET https://localhost:53610/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+04/08/2021 04:00:59 Request finished HTTP/2 GET https://localhost:53610/ - - - 200 - text/html;+charset=utf-8 1170.6168ms
+04/08/2021 04:00:59 Request starting HTTP/2 GET https://localhost:53610/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+04/08/2021 04:00:59 Sending file. Request path: '"/js/site.js"'. Physical path: '"/app/wwwroot/js/site.js"'
+04/08/2021 04:00:59 Request finished HTTP/2 GET https://localhost:53610/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 197.1161ms
+04/08/2021 04:00:59 Sending file. Request path: '"/css/site.css"'. Physical path: '"/app/wwwroot/css/site.css"'
+04/08/2021 04:00:59 Request finished HTTP/2 GET https://localhost:53610/css/site.css - - - 200 1417 text/css 463.4842ms
+04/08/2021 04:00:59 Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"/app/wwwroot/lib/jquery/dist/jquery.min.js"'
+04/08/2021 04:00:59 Request finished HTTP/2 GET https://localhost:53610/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 461.1647ms
+04/08/2021 04:00:59 Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.min.js"'. Physical path: '"/app/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"'
+04/08/2021 04:00:59 Request finished HTTP/2 GET https://localhost:53610/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 431.7719ms
+04/08/2021 04:00:59 Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.min.css"'. Physical path: '"/app/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"'
+04/08/2021 04:00:59 Request finished HTTP/2 GET https://localhost:53610/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 570.3706ms
+04/08/2021 04:00:59 Request starting HTTP/2 GET https://localhost:53610/favicon.ico - -
+04/08/2021 04:00:59 Sending file. Request path: '"/favicon.ico"'. Physical path: '"/app/wwwroot/favicon.ico"'
+04/08/2021 04:00:59 Request finished HTTP/2 GET https://localhost:53610/favicon.ico - - - 200 5430 image/x-icon 70.4270ms
+04/08/2021 04:02:51 Request starting HTTP/2 OPTIONS https://localhost:53610/api/organization - -
+04/08/2021 04:02:51 CORS policy execution successful.
+04/08/2021 04:02:51 Request finished HTTP/2 OPTIONS https://localhost:53610/api/organization - - - 204 - - 79.1063ms
+04/08/2021 04:02:51 Request starting HTTP/2 POST https://localhost:53610/api/organization application/json 147
+04/08/2021 04:02:51 CORS policy execution successful.
+04/08/2021 04:02:51 Executing endpoint '"Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController.Post (Hahn.ApplicationProcess.February2021.Web)"'
+04/08/2021 04:02:51 Route matched with "{action = \"Post\", controller = \"Organization\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hahn.ApplicationProcess.February2021.Data.ViewModels.AssetViewModel)" on controller "Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController" ("Hahn.ApplicationProcess.February2021.Web").
+04/08/2021 04:02:51 Entity Framework Core "5.0.4" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+04/08/2021 04:02:53 An error occurred using the connection to database '"HahnDB"' on server '"sqlserver"'.
+04/08/2021 04:02:53 An exception occurred in the database while saving changes for context type '"Hahn.ApplicationProcess.February2021.Domain.DBContext.ApplicationContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction()
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+ClientConnectionId:e52cf5a3-66e9-43e8-8c5b-6fd33ffe71bd
+Error Number:18456,State:1,Class:14"
+04/08/2021 04:02:53 Login failed for user 'sa'.
+04/08/2021 04:02:53 Executing "BadRequestObjectResult", writing value of type '"<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+04/08/2021 04:02:53 Executed action "Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController.Post (Hahn.ApplicationProcess.February2021.Web)" in 2151.9819ms
+04/08/2021 04:02:53 Executed endpoint '"Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController.Post (Hahn.ApplicationProcess.February2021.Web)"'
+04/08/2021 04:02:53 Request finished HTTP/2 POST https://localhost:53610/api/organization application/json 147 - 400 - application/json;+charset=utf-8 2245.1635ms
+04/08/2021 04:03:16 Request starting HTTP/2 OPTIONS https://localhost:53610/api/organization - -
+04/08/2021 04:03:16 CORS policy execution successful.
+04/08/2021 04:03:16 Request finished HTTP/2 OPTIONS https://localhost:53610/api/organization - - - 204 - - 8.6257ms
+04/08/2021 04:03:16 Request starting HTTP/2 POST https://localhost:53610/api/organization application/json 147
+04/08/2021 04:03:16 CORS policy execution successful.
+04/08/2021 04:03:16 Executing endpoint '"Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController.Post (Hahn.ApplicationProcess.February2021.Web)"'
+04/08/2021 04:03:16 Route matched with "{action = \"Post\", controller = \"Organization\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hahn.ApplicationProcess.February2021.Data.ViewModels.AssetViewModel)" on controller "Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController" ("Hahn.ApplicationProcess.February2021.Web").
+04/08/2021 04:03:16 Entity Framework Core "5.0.4" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+04/08/2021 04:03:17 An error occurred using the connection to database '"HahnDB"' on server '"sqlserver"'.
+04/08/2021 04:03:17 An exception occurred in the database while saving changes for context type '"Hahn.ApplicationProcess.February2021.Domain.DBContext.ApplicationContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction()
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+ClientConnectionId:16dcb150-d647-422a-b469-45da73762437
+Error Number:18456,State:1,Class:14"
+04/08/2021 04:03:54 Login failed for user 'sa'.
+04/08/2021 04:03:54 Executing "BadRequestObjectResult", writing value of type '"<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Boolean, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]"'.
+04/08/2021 04:03:54 Executed action "Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController.Post (Hahn.ApplicationProcess.February2021.Web)" in 38141.7044ms
+04/08/2021 04:03:54 Executed endpoint '"Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController.Post (Hahn.ApplicationProcess.February2021.Web)"'
+04/08/2021 04:03:54 Request finished HTTP/2 POST https://localhost:53610/api/organization application/json 147 - 400 - application/json;+charset=utf-8 38174.4641ms
+04/08/2021 04:03:58 Request starting HTTP/2 OPTIONS https://localhost:53610/api/organization - -
+04/08/2021 04:03:58 CORS policy execution successful.
+04/08/2021 04:03:58 Request finished HTTP/2 OPTIONS https://localhost:53610/api/organization - - - 204 - - 31.4300ms
+04/08/2021 04:03:58 Request starting HTTP/2 POST https://localhost:53610/api/organization application/json 147
+04/08/2021 04:03:58 CORS policy execution successful.
+04/08/2021 04:03:58 Executing endpoint '"Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController.Post (Hahn.ApplicationProcess.February2021.Web)"'
+04/08/2021 04:03:58 Route matched with "{action = \"Post\", controller = \"Organization\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hahn.ApplicationProcess.February2021.Data.ViewModels.AssetViewModel)" on controller "Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController" ("Hahn.ApplicationProcess.February2021.Web").
+04/08/2021 04:03:58 Entity Framework Core "5.0.4" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+04/08/2021 04:03:59 An error occurred using the connection to database '"HahnDB"' on server '"sqlserver"'.
+04/08/2021 04:03:59 An exception occurred in the database while saving changes for context type '"Hahn.ApplicationProcess.February2021.Domain.DBContext.ApplicationContext"'."
+""Microsoft.Data.SqlClient.SqlException (0x80131904): Login failed for user 'sa'.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.CompleteLogin(Boolean enlistOK)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.BeginTransaction()
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(DbContext _, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+ClientConnectionId:b81b9c7f-4819-4022-9292-72ccaf170273
+Error Number:18456,State:1,Class:14"
+04/08/2021 04:04:25 Application starting up
+04/08/2021 04:04:27 Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+04/08/2021 04:04:27 User profile is available. Using '"/root/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+04/08/2021 04:04:29 Entity Framework Core "5.0.4" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+04/08/2021 04:04:30 Now listening on: "https://[::]:443"
+04/08/2021 04:04:30 Now listening on: "http://[::]:80"
+04/08/2021 04:04:30 Application started. Press Ctrl+C to shut down.
+04/08/2021 04:04:30 Hosting environment: "Development"
+04/08/2021 04:04:30 Content root path: "/app"
+04/08/2021 04:04:33 Request starting HTTP/2 GET https://localhost:53610/ - -
+04/08/2021 04:04:33 Executing endpoint '"Hahn.ApplicationProcess.February2021.Web.Controllers.HomeController.Index (Hahn.ApplicationProcess.February2021.Web)"'
+04/08/2021 04:04:33 Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Hahn.ApplicationProcess.February2021.Web.Controllers.HomeController" ("Hahn.ApplicationProcess.February2021.Web").
+04/08/2021 04:04:33 Executing ViewResult, running view "Index".
+04/08/2021 04:04:34 Executed ViewResult - view "Index" executed in 790.06ms.
+04/08/2021 04:04:34 Executed action "Hahn.ApplicationProcess.February2021.Web.Controllers.HomeController.Index (Hahn.ApplicationProcess.February2021.Web)" in 926.4733ms
+04/08/2021 04:04:34 Executed endpoint '"Hahn.ApplicationProcess.February2021.Web.Controllers.HomeController.Index (Hahn.ApplicationProcess.February2021.Web)"'
+04/08/2021 04:04:34 Request finished HTTP/2 GET https://localhost:53610/ - - - 200 - text/html;+charset=utf-8 1506.4450ms
+04/08/2021 04:04:35 Executed DbCommand ("4,637"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""CREATE DATABASE [HahnDB];"
+04/08/2021 04:04:37 Executed DbCommand ("1,052"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [HahnDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;"
+04/08/2021 04:04:37 Executed DbCommand ("24"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+04/08/2021 04:04:37 Executed DbCommand ("29"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);"
+04/08/2021 04:04:37 Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+04/08/2021 04:04:37 Executed DbCommand ("116"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+04/08/2021 04:04:37 Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+04/08/2021 04:04:37 Applying migration '"20210326122405_Initialer"'.
+04/08/2021 04:04:37 Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);"
+04/08/2021 04:04:37 Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [AspNetUsers] (
+    [Id] nvarchar(450) NOT NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);"
+04/08/2021 04:04:37 Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Asset] (
+    [Id] int NOT NULL IDENTITY,
+    [AssetName] nvarchar(max) NULL,
+    [Department] int NOT NULL,
+    [CountryOfDepartment] nvarchar(max) NULL,
+    [EMailAdressOfDepartment] nvarchar(max) NULL,
+    [PurchaseDate] datetime2 NOT NULL,
+    [Broken] bit NOT NULL,
+    CONSTRAINT [PK_Asset] PRIMARY KEY ([Id])
+);"
+04/08/2021 04:04:37 Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);"
+04/08/2021 04:04:38 Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);"
+04/08/2021 04:04:38 Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);"
+04/08/2021 04:04:38 Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [AspNetUserRoles] (
+    [UserId] nvarchar(450) NOT NULL,
+    [RoleId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);"
+04/08/2021 04:04:38 Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [AspNetUserTokens] (
+    [UserId] nvarchar(450) NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);"
+04/08/2021 04:04:38 Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);"
+04/08/2021 04:04:38 Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;"
+04/08/2021 04:04:38 Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);"
+04/08/2021 04:04:38 Executed DbCommand ("24"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);"
+04/08/2021 04:04:38 Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);"
+04/08/2021 04:04:38 Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);"
+04/08/2021 04:04:38 Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;"
+04/08/2021 04:04:38 Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210326122405_Initialer', N'5.0.4');"
+04/08/2021 04:04:54 Request starting HTTP/2 OPTIONS https://localhost:53610/api/organization - -
+04/08/2021 04:04:54 CORS policy execution successful.
+04/08/2021 04:04:54 Request finished HTTP/2 OPTIONS https://localhost:53610/api/organization - - - 204 - - 19.3937ms
+04/08/2021 04:04:54 Request starting HTTP/2 POST https://localhost:53610/api/organization application/json 147
+04/08/2021 04:04:54 CORS policy execution successful.
+04/08/2021 04:04:54 Executing endpoint '"Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController.Post (Hahn.ApplicationProcess.February2021.Web)"'
+04/08/2021 04:04:54 Route matched with "{action = \"Post\", controller = \"Organization\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hahn.ApplicationProcess.February2021.Data.ViewModels.AssetViewModel)" on controller "Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController" ("Hahn.ApplicationProcess.February2021.Web").
+04/08/2021 04:04:54 Entity Framework Core "5.0.4" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+04/08/2021 04:04:56 Executed DbCommand ("45"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = Boolean), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Asset] ([AssetName], [Broken], [CountryOfDepartment], [Department], [EMailAdressOfDepartment], [PurchaseDate])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [Id]
+FROM [Asset]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+04/08/2021 04:04:56 Asset with Id 1 have beeen created Successufully.
+04/08/2021 04:04:56 Executing "CreatedResult", writing value of type '"Hahn.ApplicationProcess.February2021.Domain.Models.Asset"'.
+04/08/2021 04:04:56 Executed action "Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController.Post (Hahn.ApplicationProcess.February2021.Web)" in 2194.9053ms
+04/08/2021 04:04:56 Executed endpoint '"Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController.Post (Hahn.ApplicationProcess.February2021.Web)"'
+04/08/2021 04:04:56 Request finished HTTP/2 POST https://localhost:53610/api/organization application/json 147 - 201 - application/json;+charset=utf-8 2306.3881ms
+04/08/2021 06:33:40 Application starting up
+04/08/2021 06:33:45 Storing keys in a directory '"/root/.aspnet/DataProtection-Keys"' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed.
+04/08/2021 06:33:45 User profile is available. Using '"/root/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+04/08/2021 06:33:45 Creating key {cdaaf8c4-0414-4eb2-85de-b1d426090da1} with creation date 2021-04-08 06:33:45Z, activation date 2021-04-08 06:33:45Z, and expiration date 2021-07-07 06:33:45Z.
+04/08/2021 06:33:45 No XML encryptor configured. Key {cdaaf8c4-0414-4eb2-85de-b1d426090da1} may be persisted to storage in unencrypted form.
+04/08/2021 06:33:45 Writing data to file '"/root/.aspnet/DataProtection-Keys/key-cdaaf8c4-0414-4eb2-85de-b1d426090da1.xml"'.
+04/08/2021 06:33:48 Entity Framework Core "5.0.4" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+04/08/2021 06:33:51 Now listening on: "https://[::]:443"
+04/08/2021 06:33:51 Now listening on: "http://[::]:80"
+04/08/2021 06:33:51 Application started. Press Ctrl+C to shut down.
+04/08/2021 06:33:51 Hosting environment: "Development"
+04/08/2021 06:33:51 Content root path: "/app"
+04/08/2021 06:33:54 Request starting HTTP/2 GET https://localhost:56427/ - -
+04/08/2021 06:33:54 Executing endpoint '"Hahn.ApplicationProcess.February2021.Web.Controllers.HomeController.Index (Hahn.ApplicationProcess.February2021.Web)"'
+04/08/2021 06:33:54 Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "Hahn.ApplicationProcess.February2021.Web.Controllers.HomeController" ("Hahn.ApplicationProcess.February2021.Web").
+04/08/2021 06:33:55 Executing ViewResult, running view "Index".
+04/08/2021 06:33:55 Executed ViewResult - view "Index" executed in 886.513ms.
+04/08/2021 06:33:55 Executed action "Hahn.ApplicationProcess.February2021.Web.Controllers.HomeController.Index (Hahn.ApplicationProcess.February2021.Web)" in 967.6813ms
+04/08/2021 06:33:55 Executed endpoint '"Hahn.ApplicationProcess.February2021.Web.Controllers.HomeController.Index (Hahn.ApplicationProcess.February2021.Web)"'
+04/08/2021 06:33:56 Request starting HTTP/2 GET https://localhost:56427/lib/bootstrap/dist/css/bootstrap.min.css - -
+04/08/2021 06:33:56 Request starting HTTP/2 GET https://localhost:56427/css/site.css - -
+04/08/2021 06:33:56 Request starting HTTP/2 GET https://localhost:56427/lib/jquery/dist/jquery.min.js - -
+04/08/2021 06:33:56 Request finished HTTP/2 GET https://localhost:56427/ - - - 200 - text/html;+charset=utf-8 1678.0419ms
+04/08/2021 06:33:56 Request starting HTTP/2 GET https://localhost:56427/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+04/08/2021 06:33:56 Sending file. Request path: '"/css/site.css"'. Physical path: '"/app/wwwroot/css/site.css"'
+04/08/2021 06:33:56 Request starting HTTP/2 GET https://localhost:56427/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+04/08/2021 06:33:56 Sending file. Request path: '"/lib/bootstrap/dist/js/bootstrap.bundle.min.js"'. Physical path: '"/app/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"'
+04/08/2021 06:33:56 Request finished HTTP/2 GET https://localhost:56427/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78641 application/javascript 354.5642ms
+04/08/2021 06:33:56 Request finished HTTP/2 GET https://localhost:56427/css/site.css - - - 200 1417 text/css 654.5787ms
+04/08/2021 06:33:56 Sending file. Request path: '"/js/site.js"'. Physical path: '"/app/wwwroot/js/site.js"'
+04/08/2021 06:33:56 Request finished HTTP/2 GET https://localhost:56427/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 211.1924ms
+04/08/2021 06:33:56 Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"/app/wwwroot/lib/jquery/dist/jquery.min.js"'
+04/08/2021 06:33:56 Request finished HTTP/2 GET https://localhost:56427/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 771.1822ms
+04/08/2021 06:33:56 Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.min.css"'. Physical path: '"/app/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"'
+04/08/2021 06:33:56 Request finished HTTP/2 GET https://localhost:56427/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155764 text/css 938.4847ms
+04/08/2021 06:33:57 Request starting HTTP/2 GET https://localhost:56427/favicon.ico - -
+04/08/2021 06:33:57 Sending file. Request path: '"/favicon.ico"'. Physical path: '"/app/wwwroot/favicon.ico"'
+04/08/2021 06:33:57 Request finished HTTP/2 GET https://localhost:56427/favicon.ico - - - 200 5430 image/x-icon 111.1796ms
+04/08/2021 06:33:57 Executed DbCommand ("5,831"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""CREATE DATABASE [HahnDB];"
+04/08/2021 06:33:59 Executed DbCommand ("1,477"ms) [Parameters=[""], CommandType='Text', CommandTimeout='60']"
+""IF SERVERPROPERTY('EngineEdition') <> 5
+BEGIN
+    ALTER DATABASE [HahnDB] SET READ_COMMITTED_SNAPSHOT ON;
+END;"
+04/08/2021 06:33:59 Executed DbCommand ("18"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+04/08/2021 06:33:59 Executed DbCommand ("46"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);"
+04/08/2021 06:33:59 Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+04/08/2021 06:33:59 Executed DbCommand ("82"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+04/08/2021 06:33:59 Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+04/08/2021 06:33:59 Applying migration '"20210326122405_Initialer"'.
+04/08/2021 06:34:00 Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [AspNetRoles] (
+    [Id] nvarchar(450) NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);"
+04/08/2021 06:34:00 Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [AspNetUsers] (
+    [Id] nvarchar(450) NOT NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);"
+04/08/2021 06:34:00 Executed DbCommand ("12"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Asset] (
+    [Id] int NOT NULL IDENTITY,
+    [AssetName] nvarchar(max) NULL,
+    [Department] int NOT NULL,
+    [CountryOfDepartment] nvarchar(max) NULL,
+    [EMailAdressOfDepartment] nvarchar(max) NULL,
+    [PurchaseDate] datetime2 NOT NULL,
+    [Broken] bit NOT NULL,
+    CONSTRAINT [PK_Asset] PRIMARY KEY ([Id])
+);"
+04/08/2021 06:34:00 Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);"
+04/08/2021 06:34:00 Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] nvarchar(450) NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);"
+04/08/2021 06:34:00 Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);"
+04/08/2021 06:34:00 Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [AspNetUserRoles] (
+    [UserId] nvarchar(450) NOT NULL,
+    [RoleId] nvarchar(450) NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);"
+04/08/2021 06:34:00 Executed DbCommand ("24"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [AspNetUserTokens] (
+    [UserId] nvarchar(450) NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);"
+04/08/2021 06:34:00 Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);"
+04/08/2021 06:34:00 Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;"
+04/08/2021 06:34:00 Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);"
+04/08/2021 06:34:00 Executed DbCommand ("27"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);"
+04/08/2021 06:34:00 Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);"
+04/08/2021 06:34:00 Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);"
+04/08/2021 06:34:00 Executed DbCommand ("11"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;"
+04/08/2021 06:34:00 Executed DbCommand ("10"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210326122405_Initialer', N'5.0.4');"
+04/08/2021 06:35:32 Request starting HTTP/2 OPTIONS https://localhost:56427/api/organization - -
+04/08/2021 06:35:32 CORS policy execution successful.
+04/08/2021 06:35:32 Request finished HTTP/2 OPTIONS https://localhost:56427/api/organization - - - 204 - - 46.2666ms
+04/08/2021 06:35:32 Request starting HTTP/2 POST https://localhost:56427/api/organization application/json 159
+04/08/2021 06:35:32 CORS policy execution successful.
+04/08/2021 06:35:32 Executing endpoint '"Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController.Post (Hahn.ApplicationProcess.February2021.Web)"'
+04/08/2021 06:35:32 Route matched with "{action = \"Post\", controller = \"Organization\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(Hahn.ApplicationProcess.February2021.Data.ViewModels.AssetViewModel)" on controller "Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController" ("Hahn.ApplicationProcess.February2021.Web").
+04/08/2021 06:35:32 Entity Framework Core "5.0.4" initialized '"ApplicationContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "None"
+04/08/2021 06:35:35 Executed DbCommand ("96"ms) [Parameters=["@p0='?' (Size = 4000), @p1='?' (DbType = Boolean), @p2='?' (Size = 4000), @p3='?' (DbType = Int32), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Asset] ([AssetName], [Broken], [CountryOfDepartment], [Department], [EMailAdressOfDepartment], [PurchaseDate])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [Id]
+FROM [Asset]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+04/08/2021 06:35:35 Asset with Id 1 have beeen created Successufully.
+04/08/2021 06:35:35 Executing "CreatedResult", writing value of type '"Hahn.ApplicationProcess.February2021.Domain.Models.Asset"'.
+04/08/2021 06:35:35 Executed action "Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController.Post (Hahn.ApplicationProcess.February2021.Web)" in 2769.413ms
+04/08/2021 06:35:35 Executed endpoint '"Hahn.ApplicationProcess.February2021.Web.Controllers.OrganizationController.Post (Hahn.ApplicationProcess.February2021.Web)"'
+04/08/2021 06:35:35 Request finished HTTP/2 POST https://localhost:56427/api/organization application/json 159 - 201 - application/json;+charset=utf-8 2900.6385ms

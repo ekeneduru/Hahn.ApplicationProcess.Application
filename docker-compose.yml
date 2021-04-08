@@ -13,8 +13,8 @@ services:
     image: microsoft/mssql-server-linux:2017-latest  
     hostname: 'sqlserver'  
     environment:  
-      ACCEPT_EULA: Y  
-      SA_PASSWORD: "BigPassw0rd"  
+      ACCEPT_EULA: MS_SA
+      SA_PASSWORD: "Pass@word2021"  
     volumes:  
       - ./data/mssql:/var/opt/mssql3  
     ports:  
